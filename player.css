@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  #messageBox {
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+  }
+
+  #playerBox {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+  }
